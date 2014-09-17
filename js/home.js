@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){$(window).scrollTop()>=400&&!$(".wrapper").hasClass("fixed-top")?$(".wrapper").addClass("fixed-top"):$(window).scrollTop()<400&&$(".wrapper").hasClass("fixed-top")&&$(".wrapper").removeClass("fixed-top");var a=$(window).scrollTop()/4;$(".carousel-wrapper").css("-webkit-transform","translateY("+-a+"px)")})});
